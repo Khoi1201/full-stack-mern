@@ -4,7 +4,7 @@ import { Navigate, Outlet } from "react-router-dom";
 import { useContext } from "react";
 import { AuthContext } from "../../contexts/AuthContext";
 import Spinner from "react-bootstrap/esm/Spinner";
-import Navbarmenu from "../layout/NavbarMenu";
+import NavbarMenu from "../layout/NavbarMenu";
 
 const ProtectedRoute = ({ children, ...rest }) => {
   const {
@@ -20,7 +20,7 @@ const ProtectedRoute = ({ children, ...rest }) => {
 
   return isAuthenticated ? (
     <>
-      <Navbarmenu />
+      <NavbarMenu />
       {children ? children : <Outlet {...rest} />}
     </>
   ) : (

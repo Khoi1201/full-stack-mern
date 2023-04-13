@@ -7,7 +7,7 @@ import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
 import { AuthContext } from "../../contexts/AuthContext";
 
-const Navbarmenu = () => {
+const NavbarMenu = () => {
   const {
     authState: {
       user: { username },
@@ -63,4 +63,4 @@ const Navbarmenu = () => {
   );
 };
 
-export default Navbarmenu;
+export default NavbarMenu;
