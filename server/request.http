@@ -11,24 +11,24 @@ POST http://localhost:5000/api/auth/login
 Content-Type: application/json
 
 {
-    "username": "jim",
-    "password": "jim"
+    "username": "khoi",
+    "password": "khoi"
 }
 ###
 POST http://localhost:5000/api/posts
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDExNTIzZmU0YWU2N2VmMWRkZDY4OTIiLCJpYXQiOjE2Nzg4NjE4ODF9.ILtB6s2PbMSbOr3BoRBMuA7uL3eXWuSHmVVvAQqNq0w
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDExNTIzZmU0YWU2N2VmMWRkZDY4OTIiLCJpYXQiOjE2ODEzNTg0NTF9.-rs6-alM-MqVTvNhMJ2e2dnZ1R7tjT-SpNc6-g3jANY
 Content-Type: application/json
 
 {
-    "title":"time to rob",
-    "description":"rob stark",
-    "url":"hbo.com",
-    "status":"LEARNING"
+    "title":"React js",
+    "description":"beginner level",
+    "url":"youtube.com",
+    "status":"TO LEARN"
 }
 
 ###
 GET http://localhost:5000/api/posts
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDExNjM1NjdhOWJkMjE4ZGNkYzZkOTYiLCJpYXQiOjE2Nzg4NjI2MzR9.61uTlB2KQc8ZcZ_gbXY7-C5pvZexl7vvxeuHJvMnLQ0
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDExNTIzZmU0YWU2N2VmMWRkZDY4OTIiLCJpYXQiOjE2ODEzNTg0NTF9.-rs6-alM-MqVTvNhMJ2e2dnZ1R7tjT-SpNc6-g3jANY
 
 ###
 PUT http://localhost:5000/api/posts/641164113e1b55d1c681a666
@@ -43,5 +43,5 @@ Content-Type: application/json
 }
 
 ###
-DELETE http://localhost:5000/api/posts/641164113e1b55d1c681a666
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDExNjM1NjdhOWJkMjE4ZGNkYzZkOTYiLCJpYXQiOjE2Nzg4NjI2MzR9.61uTlB2KQc8ZcZ_gbXY7-C5pvZexl7vvxeuHJvMnLQ0
+DELETE http://localhost:5000/api/posts/6411665c3e1b55d1c681a669
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2NDExNTIzZmU0YWU2N2VmMWRkZDY4OTIiLCJpYXQiOjE2ODE4MDI5MDV9.77A9K-tPzsdYuQ-6n7JkTvseLxIy357SpZS8CBQ_syI

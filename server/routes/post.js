@@ -65,7 +65,7 @@ router.put("/:postId", verifyToken, async (req, res) => {
       .json({ success: false, message: "Title is required" });
 
   try {
-    const updatedPost = {
+    let updatedPost = {
       title,
       description: description || "",
       url:
