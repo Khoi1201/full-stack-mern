@@ -53,7 +53,7 @@ router.get("/", verifyToken, async (req, res) => {
   }
 });
 
-// @route Put
+// @route Put api/:postId
 // @desc Update post
 // @access Private
 
